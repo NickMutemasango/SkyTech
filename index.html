@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skytech</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./input.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="relative items-center p-1">
+      <!-- Flex container -->
+      <div class="flex items-centre justify-between">
+        <!-- Logo -->
+        <div class="py-2 pl-4">
+          <img src="./img/SkyTech logo 1.png" width="70%" alt="" />
+        </div>
+        <!-- Menu Items -->
+        <div
+          class="hidden md:flex md:justify-center items-center font-semibold space-x-6"
+        >
+          <a href="#" class="hover:text-darkBlue">About Us</a>
+          <a href="" class="hover:text-darkBlue">Services</a>
+          <a href="" class="hover:text-darkBlue">Products</a>
+          <a href="" class="hover:text-darkBlue">More</a>
+          <div class="absolute right-4">
+           <a href=" https://wa.me/+263779584006">
+            <button
+            class="bg-darkBlue border-solid border-2 border-darkBlue pt-1 pb-1 text-white pl-4 pr-4"
+          >
+            Get StarLink
+          </button>
+           </a>
+          </div>
+        </div>
+        <!-- Button -->
+        <a
+          href=""
+          class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+          >Get Started</a
+        >
+
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block md:hidden focus:outline-none relative mt-5 mr-5"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#" class="hover:text-darkBlue">About Us</a>
+          <a href="" class="hover:text-darkBlue">Services</a>
+          <a href="" class="hover:text-darkBlue">Products</a>
+          <a href="" class="hover:text-darkBlue">More</a>
+          <div class="flex space-y-3 flex-col">
+            <button
+              class="pt-1 pb-1 text-darkBlue border-solid border-2 border-darkBlue pl-8 pr-8"
+            >
+              Call
+            </button>
+            <button
+              class="bg-darkBlue border-solid border-2 border-darkBlue pt-1 pb-1 text-white pl-4 pr-4"
+            >
+              Whatsapp
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero"></section>
+
+    <!-- Services -->
+    <section id="services" class="p-5">
+      <!-- Flex container -->
+      <div
+        class="container mx-auto m-auto flex flex-col space-y-6 md:space-y-0 md:flex-row space-x-auto md:space-x-6"
+      >
+        <!-- Heading -->
+        <div class="text-4xl md:text-5xl text-darkBlue md:w-1/2">
+          <h1 class="font-bold">
+            Providing top-notch security systems and solar projects and StarLink
+          </h1>
+        </div>
+        <!-- Paragraph -->
+        <div class="flex flex-col md:w-1/2">
+          <div class="mr-0 text-darkBlue">
+            <p>
+              We specialize in electric fence, razor wire, electric gates, gate
+              motor, borehole installations setting and drilling, solar systems,
+              cctv alarm, biometric excess control, and electrical installation
+            </p>
+          </div>
+          <div class="mt-4 space-x-3">
+            <button
+              class="pt-2 pb-2 text-darkBlue border-solid border-2 border-darkBlue pl-6 pr-6"
+            >
+              Services
+            </button>
+            <button class="bg-darkBlue p-2.5 text-white pl-6 pr-6">
+              Request
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secure -->
+    <section id="secure" class="p-5">
+      <div class="container mx-auto text-darkBlue pb-5">
+        <h4 class="items-left font-bold md:pt-20 text-2xl">Secure</h4>
+      </div>
+      <!-- Flex container -->
+      <div
+        class="container mx-auto flex flex-col space-y-4 md:flex-row md:space-x-auto text-darkBlue pt-10"
+      >
+        <!-- heading -->
+        <div class="md:w-1/2 space-y-4">
+          <div class="font-bold text-4xl">
+            <h2>Protecting Your Property with Advanced Security Systems</h2>
+          </div>
+
+          <!-- paragraphy -->
+          <div>
+            <p>
+              Our comprehensive range of security systems includes electric
+              fences, razor wire, electric gates, gate motors, CCTV alarms, and
+              biometric access control. We provide top-notch solutions to
+              safeguard your property and ensure peace of min
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex md:pt-10 space-x-3">
+            <!-- security -->
+            <div class="flex-col w-90%">
+              <img src="./img/security.png" alt="" class="pb-2" />
+
+              <div class="font-extrabold text-1.5xl">
+                <h4>Reliable Solutions</h4>
+              </div>
+              <div>
+                <p>
+                  Choose from a wide selection of security systems tailored to
+                  your specific needs
+                </p>
+              </div>
+            </div>
+
+            <!-- security -->
+            <div class="flex-col">
+              <div>
+                <img src="./img/cctv.png" alt="" class="pb-2" />
+              </div>
+              <div class="font-extrabold text-1.5xl">
+                <h4>Expert Installations</h4>
+              </div>
+              <div>
+                <p>
+                  Our team of professionals ensures seamless installation and
+                  integration of security systems
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Btns -->
+          <div class="pt-10 pb-5">
+            <button
+              class="pt-2 pb-2 text-darkBlue border-solid border-2 border-darkBlue pl-6 pr-6"
+            >
+              Learn More
+            </button>
+            <button class="p-2.5 text-darkBlue pl-6 pr-6">Contact Us</button>
+          </div>
+        </div>
+
+        <!-- Img -->
+        <div class="md:w-1/2 md:pb-20">
+          <img
+            src="./img/imgs/camera.jpg"
+            class="md:h-[90%] md:-[90%]"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Installations -->
+    <section id="installations" class="p-5">
+      <!-- Flex container -->
+      <div
+        class="container mx-auto flex flex-col space-y-4 md:flex-row md:space-x-auto text-darkBlue"
+      >
+        <!-- heading -->
+        <div class="md:w-1/2 space-y-4">
+          <div class="font-bold text-4xl">
+            <h2 class="">
+              Providing Comprehensive Solar Solutions and Borehole Installations
+            </h2>
+          </div>
+
+          <!-- paragraphy -->
+          <div>
+            <p>
+              Our company specializes in delivering top-notch solar systems and
+              efficient borehole installations, ensuring sustainable energy and
+              water solutions for your needs
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex md:pt-10 space-x-3">
+            <!-- security -->
+            <div class="flex-col w-90%">
+              <div>
+                <img src="./img/solars.png" alt="" class="pb-2" />
+              </div>
+              <div class="font-extrabold text-1.5xl">
+                <h4>Solar Systems</h4>
+              </div>
+              <div>
+                <p>
+                  We offer a wide range of solar system services, including
+                  installation, maintenance, and repairs
+                </p>
+              </div>
+            </div>
+
+            <!-- security -->
+            <div class="flex-col">
+              <div>
+                <img src="./img/drop.png" alt="" class="pb-2" />
+              </div>
+              <div class="font-extrabold text-1.5xl">
+                <h4>Borehole Installation</h4>
+              </div>
+              <div>
+                <p>
+                  Our expert team provides professional borehole drilling and
+                  installation services to meet your water need
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Img -->
+        <div class="md:w-1/2">
+          <img
+            src="./img/imgs/install.jpg"
+            width="100%"
+            alt=""
+            class="md:h-[100%]"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="p-5">
+      <!-- Heading -->
+      <div
+        class="flex container mx-auto text-darkBlue pb-5 md:flex md:justify-center md:w-2/4"
+      >
+        <h2 class="font-bold md:pt-20 text-4xl">
+          Reliable and Trusted Security Systems and Solar Projects
+        </h2>
+      </div>
+
+      <!-- Flex container -->
+      <div class="container mx-auto md:flex text-darkBlue md:space-x-4">
+        <!-- List -->
+        <div class="flex-col">
+          <!-- img -->
+          <div class="pt-4">
+            <div>
+              <img src="./img/imgs/poster.jpg" class="md:h-[325px]" alt="" />
+            </div>
+          </div>
+          <!-- H4 -->
+          <div class="font-bold text-2xl pt-4 flex justify-center items-center">
+            <h4>Expertise in Electric Fencing and Solar Installation</h4>
+          </div>
+          <!-- Paragraph -->
+          <div class="pt-4">
+            <p class="items-center">
+              Our company is committed to providing reliable security systems
+              and solar projects. With our expertise, we ensure customer
+              satisfaction
+            </p>
+          </div>
+          <!-- Button -->
+          <div class="flex justify-center pt-5">
+            <button class="text-darkBlue">Learn More</button>
+          </div>
+        </div>
+
+        <div class="flex-col">
+          <!-- img -->
+          <div class="pt-4">
+            <img src="./img/imgs/man.jpg" class="h-80 w-full" alt="" />
+          </div>
+          <!-- H4 -->
+          <div class="font-bold text-2xl pt-4">
+            <h4>Expertise in Electric Fencing and Solar Installation</h4>
+          </div>
+          <!-- Paragraph -->
+          <div class="pt-4">
+            <p>
+              Our company is committed to providing reliable security systems
+              and solar projects. With our expertise, we ensure customer
+              satisfaction
+            </p>
+          </div>
+          <!-- Button -->
+          <div class="flex justify-center pt-5">
+            <button class="text-darkBlue">Learn More</button>
+          </div>
+        </div>
+
+        <div class="flex-col">
+          <!-- img -->
+          <div class="pt-4">
+            <img src="./img/imgs/solar.jpg" class="md:h-80" alt="" />
+          </div>
+          <!-- H4 -->
+          <div class="font-bold text-2xl pt-4">
+            <h4>Expertise in Electric Fencing and Solar Installation</h4>
+          </div>
+          <!-- Paragraph -->
+          <div class="pt-4">
+            <p>
+              Our company is committed to providing reliable security systems
+              and solar projects. With our expertise, we ensure customer
+              satisfaction
+            </p>
+          </div>
+          <!-- Button -->
+          <div class="flex justify-center pt-5">
+            <button class="text-darkBlue">Learn More</button>
+            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="secure" class="p-5">
+      <div class="container mx-auto text-darkBlue pb-5">
+        <h4 class="items-left font-bold md:pt-20 text-2xl">Secure</h4>
+      </div>
+      <!-- Flex container -->
+      <div
+        class="container mx-auto flex flex-col space-y-4 md:flex-row md:space-x-auto text-darkBlue pt-10"
+      >
+        <!-- heading -->
+        <div class="md:w-1/2 space-y-4">
+          <div class="font-bold text-4xl">
+            <h2>Protect Your Property with Our Reliable Solutions</h2>
+          </div>
+
+          <!-- paragraphy -->
+          <div>
+            <p>
+              Our security and solar solutions offer numerous benefits,
+              including cost savings and improved safety. With our expertise in
+              electric fence, razor wire, electric gates, gate motor, borehole
+              installations setting and drilling, solar systems, cctv alarm,
+              biometric excess control, and electrical installations, we provide
+              comprehensive solutions to meet your needs.
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex md:pt-10 space-x-3">
+            <!-- security -->
+            <div class="flex-col w-90%">
+              <div>
+                <img src="./img/money.png" alt="" class="pb-2" />
+              </div>
+              <div class="font-extrabold text-1.5xl">
+                <h4>Cost Savings</h4>
+              </div>
+              <div>
+                <p>
+                  Reduce expenses with our efficient and sustainable security
+                  and solar solutions
+                </p>
+              </div>
+            </div>
+
+            <!-- security -->
+            <div class="flex-col">
+              <div>
+                <img src="./img/profile.png" alt="" class="pb-2" />
+              </div>
+              <div class="font-extrabold text-1.5xl">
+                <h4>Improved Safety</h4>
+              </div>
+              <div>
+                <p>
+                  Enhance the security of your property and ensure the safety of
+                  your loved ones
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Btns -->
+          <div class="pt-10 pb-5">
+            <button
+              class="pt-2 pb-2 text-darkBlue border-solid border-2 border-darkBlue pl-6 pr-6"
+            >
+              Learn More
+            </button>
+            <button class="p-2.5 text-darkBlue pl-6 pr-6">Contact Us</button>
+          </div>
+        </div>
+
+        <!-- Img -->
+        <div class="md:w-1/2 md:pb-20">
+          <img
+            src="./img/imgs/warning.jpg"
+            alt=""
+            class="md:h-[90.4%] md:w-[90%]"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="secure" class="p-5">
+      <div class="container mx-auto text-darkBlue pb-5">
+        <h4 class="items-left font-bold md:pt-20 text-2xl">Reliable</h4>
+      </div>
+      <!-- Flex container -->
+      <div
+        class="container mx-auto flex flex-col space-y-4 md:flex-row md:space-x-auto text-darkBlue pt-10"
+      >
+        <!-- heading -->
+        <div class="md:w-1/2 space-y-4">
+          <div class="font-bold text-4xl">
+            <h2>Experience, Excellence, and Customer Satisfaction</h2>
+          </div>
+
+          <!-- paragraphy -->
+          <div>
+            <p>
+              With a proven track record, we have successfully completed
+              numerous projects and achieved high customer satisfaction rate
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex md:pt-1 space-x-3">
+            <!-- security -->
+            <div class="flex-col w-90%">
+              <div class="font-extrabold text-1.5xl">
+                <h2 class="font-bold text-5xl pb-5">50%</h2>
+              </div>
+              <div>
+                <p>Projects Completed</p>
+              </div>
+            </div>
+
+            <!-- security -->
+            <div class="flex-col">
+              <div class="font-extrabold text-1.5xl">
+                <h2 class="font-bold text-5xl pb-5">50%</h2>
+              </div>
+              <div>
+                <p>Customer Satisfaction Rate</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Btns -->
+          <div class="pt-10 pb-5">
+            <button
+              class="pt-2 pb-2 text-darkBlue border-solid border-2 border-darkBlue pl-6 pr-6"
+            >
+              Learn More
+            </button>
+            <button class="p-2.5 text-darkBlue pl-6 pr-6">Contact Us</button>
+          </div>
+        </div>
+
+        <!-- Img -->
+        <div class="md:w-1/2 md:pb-20">
+          <img src="./img/imgs/TELE.jpg" class="md:h-[84%] md:[80%]" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="rating" class="p-5">
+      <div
+        class="container mx-auto md:flex-col flex justify-center items-center"
+      >
+        <div></div>
+        <div>
+          <p class="font-bold text-2xl text-darkBlue text-center">
+            Our experience with the security systems provided by this company
+            has been exceptional. The installation was seamless and the system
+            has been reliable and effective in keeping our property secure
+          </p>
+        </div>
+        <div class="pt-4">
+          <img src="./img/SkyTech logo 1.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Get in touch -->
+    <section id="touch">
+      <div class="relative over w-full h-[120vh] text-white p-4">
+        <div class="pt-20 flex flex-col items-center space-y-7">
+          <h2 class="text-3xl font-bold">Get a Free Consultation Today</h2>
+          <p>Contact us now to discuss your security and solar needs</p>
+          <div>
+            <button
+              class="font-semibold pt-2 pb-2 text-darkBlue bg-white border-solid border-2 border-darkBlue pl-6 pr-6"
+            >
+              Contact
+            </button>
+            <button
+              class="font-semibold pt-2 pb-2 text-white border-solid border-2 border-darkBlue bg-darkBlue pl-6 pr-6"
+            >
+              Request
+            </button>
+          </div>
+        </div>
+        <div class="space-y-8 absolute bottom-20 md:left-20">
+          <h1 class="text-5xl font-bold">
+            Stay Updated with Our<br />
+            Newsletter
+          </h1>
+          <p>Sign up to receive updates and special offers from our company.</p>
+          <div class="flex flex-col md:flex md:flex-row">
+            <input
+              type="text"
+              class="relative w-[90%] md:w-full h-9 outline-none text-black"
+              placeholder="Enter your email"
+            />
+            <button
+              class="absolute right-2 md:right-0 pt-1 pb-1 text-white border-solid border-2 border-darkBlue bg-darkBlue pl-5 pr-5"
+            >
+              Sign up
+            </button>
+          </div>
+          <p>
+            By clicking Sign Up, you confirm that you agree with our Terms and
+            Condition
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="md:p-5 container mx-auto flex flex-col justify-center items-center space-y-3"
+    >
+      <img src="./img/SkyTech logo 1.png" alt="" />
+      <div class="space-x-3 flex">
+        <div class="flex flex-col space-y-3 md:space-y-0 md:flex md:flex-row md:space-x-3">
+          <a href="#" class="text-blue-900 font-semibold">About Us</a>
+          <a href="" class="text-blue-900 font-semibold">Services</a>
+        </div>
+        <div class="flex flex-col space-y-3 md:space-y-0 md:flex md:flex-row md:space-x-3">
+          <a href="" class="text-blue-900 font-semibold">Contuct Us</a>
+          <a href="" class="text-blue-900 font-semibold">FAQ</a>
+        </div>
+        <a href="" class="text-blue-900 font-semibold">Blog</a>
+      </div>
+    </footer>
+    <div class="container mx-auto h-px mt-3 mb-7 w-full bg-black"></div>
+
+    <!-- Copyright -->
+    <div
+      class="container mx-auto flex justify-between font-semibold text-blue-900 pb-5"
+    >
+      <p>SkyTech</p>
+      <p>copyright © 2024</p>
+    </div>
+
+    <script src="./style.js"></script>
+  </body>
+</html>
